@@ -3,8 +3,8 @@
 <suite name="Parallel Test Suite" parallel="methods" thread-count="3">
 
     <test name="Chrome Test">
-        <parameter name="browser" value="chrome"/>
-        <parameter name="headless" value="false"/>
+<!--        <parameter name="browser" value="chrome"/>-->
+<!--        <parameter name="headless" value="false"/>-->
         <classes>
             <class name="org.automation.tests.HomepageTest"/>
         </classes>
